@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* NavBar Start */
+.nav .nav_menu {
+  background: #35444f;
+}
+.nav .nav_menu ul {
+  margin: 0;
+}
+.nav .nav_menu li {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  list-style-type: none;
+  border-left: 1px solid #fff;
+  transition: 0.3s;
+}
+
+.nav .nav_menu li:hover {
+  transition: 0.3s;
+  background: #222f3a;
+}
+/* NavBar End */
+
+/* Main Start */
+
+/* Sidebar Start  */
+.main_primary {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.main_primary-sidebar {
+  text-decoration: none;
+  list-style-type: none;
+}
+.main_primary-sidebar li {
+  color: #485863;
+  font-size: 27px;
+  padding: 1rem 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 100% */
+  transition: 0.3s;
+}
+
+.main_primary-sidebar li:hover {
+  background: #dbdbdb;
+  padding: 1rem 3rem;
+  transition: 0.3s;
+}
+/* Sidebar End  */
+
+/* About Start  */
+.main_secondary-image {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+.main_secondary img {
+  width: 220px;
+  height: 281px;
+}
+.main_secondary-content p {
+  margin-top: 2rem;
+}
+/* About End  */
+
+/* Main Start */
+
+/* Footer Start */
+.footer_menu {
+  background: rgba(99, 105, 110, 0.48);
+}
+.footer_menu-primary li {
+  list-style-type: none;
+}
+.footer_menu-primary li a {
+  text-decoration: none;
+  color: #0c1927;
+  padding: 1rem 1.5rem;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 100% */
+}
+.footer_menu-primary li a:hover {
+  color: #3181a6;
+  text-decoration: underline;
+}
+.footer_menu-secondary p {
+  color: #010101;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+}
+/* Footer End  */
+
+.arrowDown {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+/* Phone Start */
+.phone {
+  margin-top: 5rem;
+}
+
+.phone_content {
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.phone_content .phone_pro {
+  padding: 0;
+}
+.phone_content .phone_pro .makeup {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.phone_content .phone_pro .makeup img {
+  width: 10px;
+  margin: 0.5rem;
+  padding: 0.1rem;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.phone .phone_notificationBar-primary p {
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.333px;
+}
+
+.phone .phone_title {
+  color: #000;
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 129.412% */
+  letter-spacing: -0.408px;
+  padding: 0.5rem 0 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.phone .phone_contacts {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.phone .phone_contacts img {
+  padding: 1rem 0.5rem;
+  width: 80px;
+  height: 96px;
+}
+.phone .phone_contacts .phone_contacts-content {
+  padding: 1rem;
+}
+.phone_buttons {
+  margin-top: 15vh;
+  padding: 0.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+/* Phone End */
